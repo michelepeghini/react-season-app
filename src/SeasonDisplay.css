@@ -1,0 +1,52 @@
+
+.season-display { 
+    display:flex;
+    justify-content: center;
+    align-content: center;
+    height: 100vh;
+}
+
+.autumn {
+    color: darkgoldenrod;
+}
+
+.winter {
+    color: darkcyan;
+}
+
+.spring {
+    color: lightgreen;
+}
+
+.summer {
+    color: orangered;
+}
+
+i.icon {
+    position: absolute;
+    animation: rotation 4000ms infinite linear;
+}
+
+@keyframes rotation {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+i.top {
+    top: 10px;
+    left: 10px;
+}
+
+i.bottom {
+    bottom: 10px;
+    right: 10px;
+}
+
+h1 {
+    margin: auto;
+    text-align: center;
+}
